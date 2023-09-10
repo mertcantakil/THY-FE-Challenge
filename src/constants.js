@@ -26,10 +26,10 @@ export const FROM = "Nereden";
 export const TO = "Nereye";
 export const DATE = "Tarih";
 
-export const flightGridStyle = { width: '47%', textAlign: 'center', margin: '10px 3px' };
-export const priceGridStyle = { width: '25%', textAlign: 'center', margin: '10px 3px' };
+export const flightGridStyle = { width: '47%', textAlign: 'center', margin: '10px 3px', minWidth: '220px' };
+export const priceGridStyle = { width: '25%', textAlign: 'center', margin: '10px 3px', minWidth: '220px'};
 export const flightOptionDetailCardsStyle = { width: '100%', textAlign: 'center' };
-export const innerCardStyle = { width: '33%', textAlign: 'center', margin: '1px' };
+export const innerCardStyle = { width: '33%', textAlign: 'center', margin: '1px', minWidth: '250px' };
 export const successIconStyle = { fontSize: '180%', color: 'green' };
 export const rejectIconStyle = { fontSize: '180%', color: 'red' };
 export const suffixIconStyle = { fontSize: '200%' };
