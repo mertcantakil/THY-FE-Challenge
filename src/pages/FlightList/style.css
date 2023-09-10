@@ -126,11 +126,11 @@
   font-size: 16px;
 }
 
-:where(.css-dev-only-do-not-override-18iikkb).ant-list-bordered {
-  border: 0;
-  border-radius: 0;
+.ant-list-bordered {
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 
-:where(.css-dev-only-do-not-override-18iikkb).ant-spin-nested-loading {
-  min-height: 190px;
+.ant-list > .ant-spin-nested-loading {
+  min-height: 190px !important;
 }
