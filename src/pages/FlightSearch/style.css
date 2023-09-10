@@ -15,7 +15,6 @@
 
 .flight-selection-area {
     display: flex;
-    width: 45%;
     min-width: 400px;
     align-items: center;
     background-color: rgb(96 105 119 / 60%);

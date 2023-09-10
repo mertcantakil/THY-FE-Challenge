@@ -52,7 +52,7 @@ const FlightOption = ({ departure, arrival, personCount }) => {
         </span>
       </div>
       <Card
-        className='align-items-center mt-4 w-50'
+        className='align-items-center mt-4 w-75'
         title="Sıralama Kriteri"
         extra={filter}
       >
