@@ -1,0 +1,136 @@
+.list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.list-header {
+  width: 50%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.flight-title {
+  background-color: red;
+  display: inline-block;
+  padding: 5px 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.flight-direction-title {
+  font-size: 1.5rem;
+}
+
+.promo-code {
+  margin-right: 1rem;
+  font-weight: bold;
+}
+
+.ant-card-head {
+  color: #f9f9f9 !important;
+  background-color: rgba(0, 0, 0, 0.836) !important;
+  text-align: end;
+}
+
+.ant-card-body {
+  background-color: #f9f9f9;
+}
+
+.ant-card-grid {
+  background-color: white;
+}
+
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flight-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bold-gray {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.693);
+  font-size: 18px;
+}
+
+.city-code {
+  font-weight: bold;
+  color: rgba(7, 1, 1, 0.548);
+  font-size: 18px;
+}
+
+.soft-gray {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.548);
+  font-size: 14px;
+}
+
+.sort-button {
+  background-color: rgba(0, 0, 0, 0.836) !important;
+  color: #f9f9f9 !important;
+  border: 1px #f9f9f9 solid;
+  margin: 2px 7px;
+  font-weight: bold;
+}
+
+.inner-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.inner-card>.ant-card-body {
+  width: 100%;
+}
+
+.flight-detail-title {
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner-card>.ant-card-body>.ant-card-grid {
+  padding: 1px;
+}
+
+.flight-detail-list-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ant-list-header {
+  background-color: #eaeaea !important;
+}
+
+.ant-list-footer {
+  padding: 0;
+  padding-inline: 0 !important;
+  padding-block: 0 !important;
+}
+
+.ant-list-footer>button {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  background-color: #E81932;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-list-bordered {
+  border: 0;
+  border-radius: 0;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-spin-nested-loading {
+  min-height: 190px;
+}

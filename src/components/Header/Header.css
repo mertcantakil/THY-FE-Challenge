@@ -1,0 +1,26 @@
+.white-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 1.5rem;
+    color: #eaeaea;
+    background-color: #063048;
+  }
+  .dark-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding-top: 1.5rem;
+    color: #063048;
+  }
+  .white-header-border {
+    margin: 0 !important;
+    border-color: #eaeaea;
+    opacity: .75;
+    background-color: #063048;
+  }
+  .dark-header-border {
+    margin: 0 !important;
+    border-color: #063048;
+    opacity: .75;
+  }

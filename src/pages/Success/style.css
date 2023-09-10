@@ -1,0 +1,18 @@
+.message-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.total-value-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.total-value {
+    color: #1b99c0;
+}

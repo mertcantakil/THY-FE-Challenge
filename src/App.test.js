@@ -1,8 +1,14 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import Welcome from './pages/FlightSearch/components/welcome';
+import Header from './components/Header/Header';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('Flight search page should render correctly', () => {
+  render(<Welcome />);
+  const title = screen.getByText(/Merhaba/i);
+  expect(title).toBeInTheDocument();
+});
+test('Header should render correctly', () => {
+  render(<Header />);
+  const title = screen.getByText(/turkishairlines.com/i);
+  expect(title).toBeInTheDocument();
 });
