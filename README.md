@@ -1,4 +1,4 @@
-# Live Demo: https://thy-fe-challenge.web.app/
+# Live Demo: https://thy-fe-challenge.web.app/  (Please enter on desktop) 
 <br />
 <b>Tech Stack: React, React Testing Library, Firebase, Ant Design, Reactstrap, Bootstrap </b><br />
 <b>Istanbul Airport -> Antalya Airport = Success Case / Other combinations = Error Case</b><br />
